@@ -1,0 +1,11 @@
+--- Makefile	2010-09-04 17:57:30.000000000 +0000
++++ Makefile.patched	2011-06-08 17:06:05.000000000 +0000
+@@ -44,7 +44,7 @@
+ 
+ all: build install
+ 
+-build: man
++build: 
+ 	@for subdir in $(SUBDIRS); do \
+                 (cd $$subdir && $(MAKE) $@) || exit $$? ; done
+ 
