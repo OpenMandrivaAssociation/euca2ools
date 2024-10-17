@@ -3,7 +3,7 @@ Version:        1.3.1
 Release:        %mkrel 1
 License:        BSD
 Summary:        Elastic Utility Computing Architecture Command Line Tools
-Url:            http://open.eucalyptus.com/downloads
+Url:            https://open.eucalyptus.com/downloads
 Group:          Productivity/Networking/System
 Source0:        %{name}-%{version}.tar.gz
 Patch0:		euca2ools-1.3.1_Makefile.patch
